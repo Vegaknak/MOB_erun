@@ -23,5 +23,5 @@ anova_summary = result_cleaned.summary()
 print(anova_summary)
 
 # Save the ANOVA summary to a text file
-with open('anova_summary.txt', 'w') as file:
+with open('analysis_results/anova_summary.txt', 'w') as file:
     file.write(anova_summary.as_text())
